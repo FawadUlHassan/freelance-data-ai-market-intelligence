@@ -1,0 +1,19 @@
+project:
+  name: freelance-data-ai-market-intelligence
+  timezone: Asia/Karachi
+  target_job_posts: 1000
+
+sampling:
+  freelance_target: 700
+  remote_work_target: 300
+  retain_source_segment: true
+
+storage:
+  preserve_raw_responses: true
+  publish_raw_data: false
+  publish_sanitized_samples: true
+
+governance:
+  collect_personal_contact_data: false
+  bypass_access_controls: false
+  require_source_compliance_review: true

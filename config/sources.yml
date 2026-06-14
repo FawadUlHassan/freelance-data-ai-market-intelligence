@@ -1,0 +1,24 @@
+sources:
+  freelancer:
+    enabled: false
+    collection_method: official_api
+    market_segment: freelance
+    compliance_status: pending_review
+
+  upwork:
+    enabled: false
+    collection_method: official_api_only
+    market_segment: freelance
+    compliance_status: access_required
+
+  remoteok:
+    enabled: false
+    collection_method: public_feed
+    market_segment: remote_work
+    compliance_status: pending_review
+
+  arbeitnow:
+    enabled: false
+    collection_method: public_api
+    market_segment: remote_work
+    compliance_status: pending_review
