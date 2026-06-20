@@ -46,7 +46,7 @@ sources:
     collection_method: public_api
     authentication: none
     target_records: 150
-    access_status: available
-    compliance_status: pending_terms_review
+    access_status: test_approved
+    compliance_status: bulk_collection_pending
     publication_policy: aggregated_only
     raw_description_publication: false

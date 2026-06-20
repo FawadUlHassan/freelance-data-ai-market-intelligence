@@ -35,6 +35,7 @@ class RawJobPosting(BaseModel):
 
     engagement_type: EngagementType = "unknown"
     experience_level: ExperienceLevel = "unknown"
+    is_remote: bool | None = None
 
     currency_code: str | None = Field(
         default=None,

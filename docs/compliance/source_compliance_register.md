@@ -8,7 +8,7 @@ data source. A source cannot be enabled until its review is complete.
 | Freelancer | Official API | Not configured | Pending review | Do not collect yet |
 | Upwork | Official OAuth API | Approval required | Restricted | Do not collect yet |
 | RemoteOK | Public JSON feed | Available | Terms review pending | Do not collect yet |
-| Arbeitnow | Public API | Available | Terms review pending | Do not collect yet |
+| Arbeitnow | Public API | Test approved | Bulk collection pending | Schema test approved; do not bulk collect yet |
 | LinkedIn | Automated collection | Not approved | Prohibited for project | Excluded |
 | Indeed | Automated collection | Not approved | Unclear/restricted | Excluded |
 | Fiverr | Seller/service listings | Not assessed | Separate population | Future supply analysis |

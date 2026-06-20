@@ -16,6 +16,7 @@
 | description | Text | Yes | Original job description |
 | engagement_type | Category | Yes | fixed, hourly, salary, or unknown |
 | experience_level | Category | Yes | entry, intermediate, expert, or unknown |
+| is_remote | Boolean | No | Whether the source explicitly marks the role as remote |
 | currency_code | Text | No | ISO-style three-letter currency code |
 | budget_min | Decimal | No | Minimum fixed-price budget |
 | budget_max | Decimal | No | Maximum fixed-price budget |
