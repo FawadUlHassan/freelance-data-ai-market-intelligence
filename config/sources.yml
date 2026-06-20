@@ -1,24 +1,52 @@
 sources:
   freelancer:
+    display_name: Freelancer
     enabled: false
-    collection_method: official_api
     market_segment: freelance
+    source_role: primary
+    collection_method: official_api
+    authentication: api_token
+    target_records: 500
+    access_status: not_configured
     compliance_status: pending_review
+    publication_policy: aggregated_only
+    raw_description_publication: false
 
   upwork:
+    display_name: Upwork
     enabled: false
-    collection_method: official_api_only
     market_segment: freelance
-    compliance_status: access_required
+    source_role: conditional
+    collection_method: official_api_only
+    authentication: oauth2
+    target_records: 200
+    access_status: approval_required
+    compliance_status: restricted
+    publication_policy: internal_until_confirmed
+    raw_description_publication: false
 
   remoteok:
+    display_name: RemoteOK
     enabled: false
-    collection_method: public_feed
     market_segment: remote_work
-    compliance_status: pending_review
+    source_role: secondary
+    collection_method: public_json_feed
+    authentication: none
+    target_records: 150
+    access_status: available
+    compliance_status: pending_terms_review
+    publication_policy: aggregated_only
+    raw_description_publication: false
 
   arbeitnow:
+    display_name: Arbeitnow
     enabled: false
-    collection_method: public_api
     market_segment: remote_work
-    compliance_status: pending_review
+    source_role: secondary
+    collection_method: public_api
+    authentication: none
+    target_records: 150
+    access_status: available
+    compliance_status: pending_terms_review
+    publication_policy: aggregated_only
+    raw_description_publication: false

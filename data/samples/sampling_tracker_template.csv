@@ -1,0 +1,5 @@
+source,market_segment,target_records,access_status,collection_status,records_received,records_valid,records_rejected,duplicate_records,unique_records,last_collection_utc,notes
+freelancer,freelance,500,not_configured,not_started,0,0,0,0,0,,
+upwork,freelance,200,approval_required,blocked,0,0,0,0,0,,Conditional on API approval
+remoteok,remote_work,150,available,not_started,0,0,0,0,0,,
+arbeitnow,remote_work,150,available,not_started,0,0,0,0,0,,
