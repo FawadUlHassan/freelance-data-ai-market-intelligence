@@ -101,3 +101,15 @@ Collection is complete when:
 - Every active source has passed compliance review.
 - Duplicate and rejection statistics are documented.
 - Each record can be traced to a collection run.
+
+## Relevance Classification
+
+Every collected record must pass the Data and AI relevance filter before it
+counts toward a source target.
+
+- `accepted`: counts toward the target;
+- `needs_review`: retained for manual review but does not count automatically;
+- `rejected`: excluded from the analytical dataset.
+
+The initial classifier is transparent and rule-based. It records a score,
+matched terms and a decision explanation for every evaluated record.

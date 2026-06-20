@@ -1,0 +1,59 @@
+classification:
+  accepted_score_threshold: 3
+  review_score_threshold: 1
+
+high_signal_terms:
+  - data analyst
+  - data analytics
+  - business intelligence
+  - power bi
+  - tableau
+  - looker
+  - sql
+  - postgresql
+  - mysql
+  - data engineer
+  - data engineering
+  - analytics engineer
+  - data warehouse
+  - etl
+  - elt
+  - data pipeline
+  - data cleaning
+  - data science
+  - data scientist
+  - machine learning
+  - deep learning
+  - natural language processing
+  - nlp
+  - generative ai
+  - large language model
+  - llm
+  - retrieval augmented generation
+  - rag
+  - vector database
+  - langchain
+  - openai api
+  - forecasting
+  - data visualization
+  - telecom analytics
+  - voip analytics
+  - cdr analysis
+  - call detail record
+
+supporting_terms:
+  - python
+  - pandas
+  - excel
+  - spreadsheet
+  - dashboard
+  - reporting
+  - visualization
+  - database
+  - automation
+  - n8n
+  - zapier
+  - make
+  - api integration
+  - web scraping
+  - data migration
